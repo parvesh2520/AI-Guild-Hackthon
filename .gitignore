@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints / model weights
+checkpoints/
+*.pt
+*.pth
+
+# Large zip and wheel files
+*.zip
+*.whl
+
+# Datasets
+geolocation-prediction/
+training_dataset/
+test_images_sampled/
+
+# Temporary / OS files
+size.txt
+.DS_Store
+Thumbs.db
